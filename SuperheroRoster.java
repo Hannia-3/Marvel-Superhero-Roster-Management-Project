@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SuperheroApp {
+public class SuperheroRoster {
 
     public static void main(String[] args) {
         
