@@ -5,7 +5,7 @@ public class SuperheroRoster {
     public static void main(String[] args) {
         String[] heroNames = {"Spiderman", "Captain America", "Quicksilver"};
         String[] abilities = {"Web-slinging", "Stamina", "Superhuman speed"};
-        int[] powerLevels = {80, 75, 90}
+        int[] powerLevels = {80, 75, 90};
 
         System.out.println("--Marvel Superhero Database--");
         for (int i = 0; i < heroNames.length; i++) {
@@ -32,9 +32,9 @@ public class SuperheroRoster {
 
     public static void searchHero(String[] names, String[] abilities, int[] powerLevels, String target) {
         boolean found = false;
-        for (int i = 0; i < heroNames.length; i++) {
+        for (int i = 0; i < names.length; i++) {
             if (names[i].equalsIgnoreCase(target)) {
-                System.out.println("Hero Found: " + names[i] + ", Ability: " + abilities[i] + ", Power Level: " + powerlevels[i]);
+                System.out.println("Hero Found: " + names[i] + ", Ability: " + abilities[i] + ", Power Level: " + powerLevels[i]);
                 found = true;
                 break;
             }
